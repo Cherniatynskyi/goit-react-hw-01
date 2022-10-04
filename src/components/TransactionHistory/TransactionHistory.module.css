@@ -1,0 +1,32 @@
+.transaction_history{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.head{
+    padding: 10px;
+    background-color: rgb(165, 240, 215);
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.head_item{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+}
+.body{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+}
+.body_row{
+ display: flex;
+ justify-content: space-between;
+}
+
